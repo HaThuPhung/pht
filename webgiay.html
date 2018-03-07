@@ -1,100 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Xây dựng website</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="row">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Xây dựng website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
                  <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="header">
                     <div id="logo">
-                        <p><img src="#"></p>
+                        <p><img src="logo2.png"></p>
+                        <div id="search">
+                            <form name="frmsearch" method="POST" action="">
+                                <input type="text" name="ten" value="" placeholder="Tìm kiếm từ khóa">
+                                <input type="submit" name="submit" value="Tìm kiếm">
+                            </form>     
+                        </div>
                     </div>
-                 	<div id="menu">
-                 		<ul id="menu_top">
-                 			<li><a href="">Trang chủ</a></li>
-                 			<li><a href="">Khuyến Mãi</a></li>
-                 			<li><a href="">Giày Nam</a>
-								<ul>
-									<li><a href="">NIKE</a></li>
-									<li><a href="">ADIDAS</a></li>
-									<li><a href="">VANS</a>
-								</ul>
-							</li>
-                 			<li><a href="">Giày Nữ</a>
-								<ul>
-									<li><a href="">NIKE</a></li>
-									<li><a href="">Chanel</a></li>
-									<li><a href="">Gucci</a>
-								</ul>
-							</li>
-                 			<li><a href="">Giày Đôi</a></li>
-                 			<li><a href="">Tin Tức</a></li>
-                 			<li><a href="">Phụ Kiện</a></li>
-                 		</ul>
-                 		<div class="clearfix"></div>
-                 		<div id="search">
-                 			<form name="frmsearch" method="POST" action="">
-                 				<input type="text" name="ten" value="" placeholder="Tìm kiếm từ khóa">
-                 				<input type="submit" name="submit" value="Tìm kiếm">
-                 			</form>		
-                 		</div>
-                 	</div>
+                    <div id="menu">
+                        <ul id="menu_top">
+                            <li><a href="">Trang chủ</a></li>
+                            <li><a href="">Khuyến Mãi</a></li>
+                            <li><a href="">Giày Nam</a>
+                                <ul>
+                                    <li><a href="">NIKE</a></li>
+                                    <li><a href="">ADIDAS</a></li>
+                                    <li><a href="">VANS</a>
+                                </ul>
+                            </li>
+                            <li><a href="">Giày Nữ</a>
+                                <ul>
+                                    <li><a href="">NIKE</a></li>
+                                    <li><a href="">Chanel</a></li>
+                                    <li><a href="">Gucci</a>
+                                </ul>
+                            </li>
+                            <li><a href="">Giày Đôi</a></li>
+                            <li><a href="">Tin Tức</a></li>
+                            <li><a href="">Phụ Kiện</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+
+                    </div>
                  </div>
-			</div>
-			<div class="images">
-			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="left">				
-					<div class="box">
+            </div>
+            <div class="images">
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="left">             
+
+                    <div class="box">
                          <div class="box_top">
-                         	<p>Video</p>		
+                            <p>Danh sách sản phẩm</p>       
                          </div>
                          <div class="box_main">
-                         	<div id="video">
-	                        	<div id="content_video">
-                                     <iframe width="100%" height="162px" class="embed-player" src="http://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>		
-                				</div>
-            					<div class="clearfix"></div>
-                        	</div>
+                            <ul id="baiviet_l">
+                                <li><input type="radio" name="boxsanpham" value=""><a href="">ADIDAS</a></li>
+                                <li><input type="radio" name="boxsanpham" value=""><a href="">NIKE</a></li>
+                                <li><input type="radio" name="boxsanpham" value=""><a href="">VANS</a></li>
+                                <li><input type="radio" name="boxsanpham" value=""><a href="">Gucci</a></li>
+                                <li><input type="radio" name="boxsanpham" value=""><a href="">Chanel</a></li>   
+                            </ul>
                          </div>
-					</div>
-					<div class="box">
+                    </div>
+                    <div class="box">
                          <div class="box_top">
-                         	<p>Danh sách sản phẩm</p>		
+                            <p>Hỗ trợ trực tuyến</p>        
                          </div>
                          <div class="box_main">
-                         	<ul id="baiviet_l">
-	                        	<li><input type="radio" name="boxsanpham" value=""><a href="">ADIDAS</a></li>
-	                        	<li><input type="radio" name="boxsanpham" value=""><a href="">NIKE</a></li>
-	                        	<li><input type="radio" name="boxsanpham" value=""><a href="">VANS</a></li>
-	                        	<li><input type="radio" name="boxsanpham" value=""><a href="">Gucci</a></li>
-	                        	<li><input type="radio" name="boxsanpham" value=""><a href="">Chanel</a></li>	
-                        	</ul>
+                            <div id="support">
+                                <p><a href=""><img src="images/yahoo.png"></a><a href=""><img src="images/skype.png"></a></p>   
+                                <p>Hotline:&nbsp;<span>01694253555</span></p>
+                                <p>Email:&nbsp;hotro@ttm.edu.vn</p>
+                            </div>
                          </div>
-					</div>
-					<div class="box">
-                         <div class="box_top">
-                         	<p>Hỗ trợ trực tuyến</p>		
-                         </div>
-                         <div class="box_main">
-                         	<div id="support">
-	                        	<p><a href=""><img src="images/yahoo.png"></a><a href=""><img src="images/skype.png"></a></p> 	
-	                        	<p>Hotline:&nbsp;<span>01694253555</span></p>
-	                        	<p>Email:&nbsp;hotro@ttm.edu.vn</p>
-                        	</div>
-                         </div>
-					</div>
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" id="center">
-					<div class="box_center">
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" id="center">
+                    <div class="box_center">
                          <div class="box_center_top">
                             <div class="box_center_top_l">
                                 <a href="">ADIDAS</a>     
@@ -119,7 +108,7 @@
                             </div>  
                          </div>
                     </div>
-					<div class="box_center">
+                    <div class="box_center">
                          <div class="box_center_top">
                             <div class="box_center_top_l">
                                 <a href="">Sản phẩm nổi bật </a>     
@@ -168,12 +157,12 @@
                                 </div>
                             </div>  
                          </div>
-                    </div>						
-				</div>				
-			</div>
-		</div>
-	</div>
-	<div id="bg_footer">
+                    </div>                      
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div id="bg_footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footer">
@@ -184,6 +173,6 @@
                 </div>
             </div>
         </div>
-	</div>
-	</body>
-</html>        
+    </div>
+    </body>
+</html>   
