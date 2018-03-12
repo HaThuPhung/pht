@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Xây dựng website</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/script.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="header">
+                    <div id="logo">
+                        <a href="#"><img src="../images/logo3.png"></a>
+                    <div id="search">
+                            <input type="text" name="ten" value="" placeholder="Tìm kiếm từ khóa">
+                            <input type="submit" name="submit" value="Tìm kiếm">
+                            </form> 
+                    <form name="frmsearch" method="POST" action="">                       
+                    </div>
+                    <div id="menu">
+                        <ul id="menu_top">
+                            <li><a href="../webgiay.html">Trang chủ</a></li>
+                            <li><a href="">Khuyến Mãi</a></li>
+                            <li><a href="">Giày Nam</a>
+                                <ul>
+                                    <li><a href="">NIKE</a></li>
+                                    <li><a href="">ADIDAS</a></li>
+                                    <li><a href="">VANS</a>
+                                </ul>
+                            </li>
+                            <li><a href="">Giày Nữ</a>
+                                <ul>
+                                    <li><a href="">NIKE</a></li>
+                                    <li><a href="">Chanel</a></li>
+                                    <li><a href="">Gucci</a>
+                                </ul>
+                            </li>
+                            <li><a href="">Giày Đôi</a></li>
+                            <li><a href="">Tin Tức</a></li>
+                            <li><a href="">Phụ Kiện</a></li>                            
+                        </ul>                   
+                    </div>
+                 </div>
+            </div>
+            <div class="images">
+                <img src="../images/bia4.jpeg" width="100% >
+        <div class="row" >
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="center">
+                <div class="box_center">
+                     <div class="box_center_top">
+                        <div class="box_center_top_l">
+                                <a href="">SP Bán Chạy Nhất</a>     
+                        </div>
+                            <div class="box_center_top_r"></div>
+                            <div class="clearfix"></div>
+                         </div>
+                         <div class="box_center_main">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="gd1"><img src="../images/gd7.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike 2017 <br>Giá : <del> 6$ </del>   -  4$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="gd2"><img src="../images/gd2.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Fashion Nike <br> Giá : 4$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="gd3"><img src="../images/gd3.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike Xanh <br> Giá : 2,5$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="da3"><img src="../images/da3.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày NMD Hồng <br> Giá : 2,5$</a>      
+                                </div>
+                            </div>  
+                         </div>
+                    </div>
+                    <div class="box_center">
+                         <div class="box_center_top">
+                            <div class="box_center_top_l">
+                                <a href="">Sản phẩm nổi bật </a>     
+                            </div>
+                            <div class="box_center_top_r"></div>
+                            <div class="clearfix"></div>
+                         </div>
+                         <div class="box_center_main">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="gd4"><img src="../images/gd4.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike Blue <br>Giá : <del> 6$ </del>   -  4$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="gd5"><img src="../images/gd5.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Fashion Nike <br> Giá : 4$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="gd6"><img src="../images/gd6.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike Xanh <br> Giá : 2,5$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="da4"><img src="../images/da4.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike Xanh <br> Giá : 2,5$</a>      
+                                </div>
+                            </div>    
+                         </div>
+                    </div>
+                    <div class="box_center">
+                         <div class="box_center_top">
+                            <div class="box_center_top_l">
+                                <a href="">Sản Phẩm</a>     
+                            </div>
+                            <div class="box_center_top_r"></div>
+                            <div class="clearfix"></div>
+                         </div>
+                         <div class="box_center_main">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="gd7"><img src="../images/gd7.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike 2017 <br>Giá : <del> 6$ </del>   -  4$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="v3"><img src="../images/v3.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Fashion Nike <br> Giá : 4$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="v4"><img src="../images/v4.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike Xanh <br> Giá : 2,5$</a>      
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 tinhome_item">
+                                    <a href="" class="da6"><img src="../images/da6.jpg"></a>
+                                    <a href="" class="tinhome_item_name">Giày Nike Xanh <br> Giá : 2,5$</a>      
+                                </div>
+                            </div>  
+                         </div>
+                    </div>                      
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div id="bg_footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footer">
+                    <p></p>
+                    <p></p>
+                    <p>Điện thoại:01694253555</p>
+                    <p>Email:phuctp14@gmail.com</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>   
