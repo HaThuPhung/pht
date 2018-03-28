@@ -1,0 +1,38 @@
+[
+  {
+      "id"   : "1",
+      "Name" : "Vans classic đen ",
+      "img"  : "../images/v1.jpg",
+      "Gia"  : "100$"
+    },
+    {
+      "id"   : "2",
+      "Name" : " Vans hoa lá",
+      "img"  : "../images/v2.jpg",
+      "Gia"  : "115$"
+    },
+    {
+      "id"   : "3",
+      "Name" : " Vans lửa",
+      "img"  : "../images/v3.jpg",
+      "Gia"  : "125$"
+    },
+    {
+      "id"   : "4",
+      "Name" : "Vans Xanh",
+      "img"  : "../images/v4.jpg",
+      "Gia"  : "115$"
+    },
+    {
+      "id"   : "5",
+      "Name" : "Vans Hồng   ",
+      "img"  : "../images/v6.jpg",
+      "Gia"  : "115$"
+    },
+    {
+      "id"   : "6",
+      "Name" : "Vans kẻ ca rô  ",
+      "img"  : "../images/v7.jpg",
+      "Gia"  : "120$"
+    }
+  ]
