@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Quản trị hệ thống</title>
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link href="css/styleadmin.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="css/sb-admin.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+   <div class="container-fuild">
+      <div id="wrapper">
+         <!-- Navigation -->
+         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <a class="navbar-brand" href="">QUẢN TRỊ HỆ THỐNG</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Xin chào:&nbsp;admin <b class="caret"></b></a>
+                   <ul class="dropdown-menu">
+                     <li>
+                        <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                     </li>
+                     <li>
+                        <a href="#"><i class="fa fa-fw fa-gear"></i>Đổi mật khẩu</a>
+                     </li>
+                     <li class="divider"></li>
+                     <li>
+                        <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+     </div>
+         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+         <div id="page-wrapper">
+            <div class="container-fuild">
+               <div class="row">
+                  <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3" id="left">
+                     <ul class="nav navbar-nav side-nav">
+                        <li style="background:#1b926c;color:#fff;">
+                           <a href="../Main.php" style="color:#fff;"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        </li>
+                        <li>
+                           <a href="javascript:;" data-toggle="collapse" data-target="#demo_dm"><i class="fa fa-fw fa-file"></i>  ADIDAS  <i class="fa fa-fw fa-caret-down"></i></a>
+                           <ul id="demo_dm" class="collapse">
+                              <li>
+                                 <a href="#">Thêm mới</a>
+                              </li>
+                              <li>
+                                 <a href="#">Danh sách</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="javascript:;" data-toggle="collapse" data-target="#demo_bv"><i class="fa fa-fw fa-file"></i> Sản Phẩm Nổi Bật  <i class="fa fa-fw fa-caret-down"></i></a>
+                           <ul id="demo_bv" class="collapse">
+                              <li>
+                                 <a href="#">Thêm mới</a>
+                              </li>
+                              <li>
+                                 <a href="#">Danh sách</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="javascript:;" data-toggle="collapse" data-target="#demo_lh"><i class="fa fa-fw fa-file"></i> Nike  <i class="fa fa-fw fa-caret-down"></i></a>
+                           <ul id="demo_lh" class="collapse">
+                              <li>
+                                 <a href="#">Thêm mới</a>
+                              </li>
+                              <li>
+                                 <a href="#">Danh sách</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="javascript:;" data-toggle="collapse" data-target="#demo_sl"><i class="fa fa-fw fa-file"></i> Danh Sách Sản Phẩm <i class="fa fa-fw fa-caret-down"></i></a>
+                           <ul id="demo_sl" class="collapse">
+                              <li>
+                                 <a href="#">Thêm mới</a>
+                              </li>
+                              <li>
+                                 <a href="#">Danh sách</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="javascript:;" data-toggle="collapse" data-target="#demo_vd"><i class="fa fa-fw fa-file"></i> Hỗ trợ trực tuyến<i class="fa fa-fw fa-caret-down"></i></a>
+                           <ul id="demo_vd" class="collapse">
+                              <li>
+                                 <a href="#">Thêm mới</a>
+                              </li>
+                              <li>
+                                 <a href="#">Danh sách</a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+              
+                  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" id="right">
+                     
+				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+             	<h3>Danh sách slider </h3>
+                 <table id ="table" width="100%" class="table table-hover">
+			 	<tr>
+					<th width="30%" height="63">Tên Sản Phẩm</th>
+					<th width="20%">Giá Tiền</th>
+					<th width="20%" >Ảnh</th>
+					<th width="16%">Thứ Tự</th>
+					<th width="15%">Ghi chu</th>
+				</tr>
+				
+					
+				</table>
+				</div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="right" >
+                           <h1 class="page-header">
+                              ADD <small>Adidas</small>
+                           </h1>                         
+                                    <div class="form_group">
+                                        <label>Tên Sản Phẩm </label>
+                                        <input type="text" id="tensp" class="form-control" placeholder="Tên Giay">                                   
+                                        <label>Giá Sản Phẩm</label>
+                                        <input type="text" id="gia"  class="form-control" placeholder="Giá Tiền">    
+                                        <label>Ảnh</label>
+                                        <input type="text" id="img"  class="form-control" placeholder="link">   
+										<label>Thứ Tự </label>
+										<input type="int" id="thutu"  class="form-control" placeholder="thứ tự">
+										<label>Trạng thái </label><br>
+										<input type="text" id="ghichu"  class="form-control" placeholder="ghi chu"> 
+                                    </div>
+                                    <input type="button"  onclick="add();" value="Thêm Mới"/>
+									<input type="button"  onclick="edit();" value="edit"/>
+                                    </div>
+                               
+                        </div>
+                     </div>
+					 </div>
+                
+             </div>
+             </div>
+      <div id="footer">
+         <p>Bản quyền thuộc về Phúc</p>
+      </div>
+	  </div>
+      <script type = "text/javascript" src="js/script1.js"></script>
+      <!-- jQuery -->
+      <script type = "text/javascript" src="js/jquery.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script type = "text/javascript" src="js/bootstrap.min.js"></script>
+      <!-- Morris Charts JavaScript -->
+   </body>
+</html> 
