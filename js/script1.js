@@ -1,12 +1,13 @@
 	var rIndex,table=document.getElementById("table");
 	var i;
+/* Thêm phần tử */
 function add(){
-	
 	tensp=document.getElementById("tensp").value,
 	gia=document.getElementById("gia").value,
 	anh=document.getElementById("img").value,
 	thutu=document.getElementById("thutu").value,
 	ghichu=document.getElementById("ghichu").value;
+/*kiểm tra nhập liệu */
 	if(tensp==""){
 		document.getElementById('span1').innerHTML = " Chưa nhập Họ tên. Vui lòng nhập ! ";
 		return false;
@@ -53,9 +54,9 @@ function add(){
 	cell4.innerHTML=thutu;
 	cell5.innerHTML=ghichu;
 	selected();
-	return kt=true;
 	}
 }
+/* Chọn Phần tử */
 function selected(){
 	
 	for(var i=1;i<table.rows.length;i++)
@@ -72,6 +73,7 @@ function selected(){
 	}
 }
 selected();
+/* Sửa */
 function edit(){
 	selected();
 	var tensp=document.getElementById("tensp").value,
